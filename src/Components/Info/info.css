@@ -1,0 +1,38 @@
+.info{
+    margin-top: 100px;
+
+}
+.info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 50px; */
+}
+Input{
+    width: 400px;
+    height: 30px;
+    background-color: rgb(4, 4, 37);
+    border: none;
+    outline: none;
+}
+
+textarea{
+    width: 400px;
+    
+    background-color: rgb(202, 202, 219);
+    border: none;
+    outline: none;
+
+}
+h2{
+    text-align: center;
+    margin-block: 10px;
+}
+.btn{
+    align-items: center;
+    margin-top: 5%;
+    /* background-color: rgb(153, 153, 238);
+     */
+}

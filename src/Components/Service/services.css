@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-heading{
+    padding-inline: 500px;
+}
+
+.sevices1{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.services-p{
+    text-align: center;
+}
+.icon h2 {
+    font-size: 1.3rem;
+    
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    text-align: center;
+    justify-self: center;
+
+
+
+}
+.icons-container{
+    display: flex;
+    margin-inline: 25%;
+    width: 900px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px;
+
+}
+
+.icon img{
+    width: 60px;
+}

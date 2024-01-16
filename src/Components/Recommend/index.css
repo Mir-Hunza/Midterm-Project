@@ -1,0 +1,36 @@
+.card-container{
+    width: 940px;
+    display: flex;
+    margin-inline: 18%;
+    gap: 30px;
+    margin-block: 60px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+
+}
+.card img{
+    width: 70px;
+}
+.card div img{
+    width: 50px;
+    padding-top: 10px;
+}
+.card div{
+    display: flex;
+    gap: 5px;
+}
+.card div div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+h3{
+    padding-block: 10px;
+}
+.main-heading{
+    padding-top: 150px;
+}
