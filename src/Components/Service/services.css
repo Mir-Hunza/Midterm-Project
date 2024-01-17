@@ -3,7 +3,12 @@ body{
 }
 
 .main-heading{
-    padding-inline: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    max-width: 50%;
 }
 
 .sevices1{
@@ -12,11 +17,10 @@ body{
     font-weight: 700;
     opacity: 0.8;
 }
-.services-p{
-    text-align: center;
-}
+
 .icon h2 {
     font-size: 1.3rem;
+    
     
 }
 .icon{
@@ -24,9 +28,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 230px;
-    text-align: center;
-    justify-self: center;
+   
 
 
 

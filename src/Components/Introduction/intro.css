@@ -1,54 +1,55 @@
-.Intro{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-    margin-inline: 130px;
-    margin-block: 80px;
-    font-family: 'poppins', sans-serif;
-    /* max-height: 80vh; */
-    max-width: 100vw;
-
+.Intro {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 130px;
+  margin-block: 80px;
+  font-family: "poppins", sans-serif;
+  /* max-height: 80vh; */
+  max-width: 100vw;
 }
-.intro-content{
+.intro-content {
   display: flex;
   flex-direction: column;
-gap: 10px;
-    width: 50%;
-  }
-  .intro-content div{
+  justify-content: center;
+  width: 80%;
+}
+/* .intro-content div{
     display: flex;
     gap: 9px;
-  }
-  h2{
-    font-size: 2.1rem;
-  }
-  p{
-    font-size: 0.9rem;
-    opacity: 0.8;
-  }
+  } */
+h2 {
+  font-size: 2.1rem;
+}
+p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
 
-  .pic-image{
-    width: 50%;
-  }
-  .pic-image img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-  }
-  button{
-    width: 100px;
-    height: 40px;
-    background-color: cyan;
-    border-radius: 6px;
-    font-family: 'Robot', sans-serif;
-    border: none;
-    outline: none;
-    font-size: 0.95rem;
-  }
- 
-button:hover{
-     box-shadow: 0 0 5px cyan,
-     0 0 25px cyan, 0 0 50px cyan,
-     0 0 100px cyan, 0 0 200px cyan
+.pic-image {
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: cyan;
+  border-radius: 6px;
+  font-family: "Robot", sans-serif;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
 }

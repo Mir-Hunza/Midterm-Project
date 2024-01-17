@@ -14,8 +14,7 @@ function App() {
     <Introduction/>
     <Services/>
     <Recommend/>
-    <Info/>
-    
+    <Info/>    
     <Footer/>
     
     </>

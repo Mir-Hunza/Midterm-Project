@@ -9,7 +9,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    width: 280px;
+   
 
 }
 .card img{
@@ -30,7 +30,4 @@
 }
 h3{
     padding-block: 10px;
-}
-.main-heading{
-    padding-top: 150px;
 }
